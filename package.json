@@ -10,8 +10,5 @@
     "pie-chart-elements-center"
   ],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "user": "0.0.0"
-  }
+  "license": "MIT"
 }
