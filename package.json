@@ -11,7 +11,7 @@
   "keywords": [
     "pie-chart-elements-center"
   ],
-  "author": "",
+  "author": "Juan Alejandro Mauricio Aguirre - juanalemau@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
