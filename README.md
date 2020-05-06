@@ -4,7 +4,7 @@ Creation of plugin to be able to alter the configurations of the library js char
 
 ## Prerequisites
 
-You need to have the [Chartjs] library installed (https://www.chartjs.org/docs/latest/getting-started/installation.html)
+You need to have the Chartjs library installed (https://www.chartjs.org/docs/latest/getting-started/installation.html)
 
 ```shell
 npm install chart.js --save
