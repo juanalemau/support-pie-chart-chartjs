@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
     context: __dirname,
-    entry: './src/support-pie-chart.js',
+    entry: './src/index.js',
     output: {
         path: path.resolve( __dirname, 'dist' ),
         filename: 'support-pie-chart.min.js',
@@ -32,7 +32,15 @@ module.exports = {
             {
                 test: /\.css$/, 
                 use: [MiniCssExtractPlugin.loader, 'css-loader'] ,
-            }
+            },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/,
+            },
         ]
+    },
+    resolve: {
+        extensions: [ '.tsx', '.ts', '.js' ],
     }
 };
