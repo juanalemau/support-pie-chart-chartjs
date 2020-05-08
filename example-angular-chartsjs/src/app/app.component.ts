@@ -40,8 +40,8 @@ export class AppComponent {
             color: "#252220",
             fontStyle: 'Arial',
             sidePadding: 20,
-            minFontSize: 25,
-            lineHeight: 25
+            minFontSize: 6,
+            lineHeight: 6
           }
         },
       }

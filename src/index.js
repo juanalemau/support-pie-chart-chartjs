@@ -11,7 +11,7 @@ Chart.pluginService.register({
       var fontStyle = centerConfig.fontStyle || 'Arial';
       var txt = centerConfig.text;
       var color = centerConfig.color || '#000';
-      var maxFontSize = centerConfig.maxFontSize || 75;
+      var maxFontSize = centerConfig.minFontSize || 75;
       var sidePadding = centerConfig.sidePadding || 20;
       var sidePaddingCalculated = (sidePadding / 100) * (chart.innerRadius * 2)
     
@@ -34,7 +34,7 @@ Chart.pluginService.register({
       var wrapText = false;
 
       if (minFontSize === undefined) {
-        minFontSize = 20;
+        minFontSize = 10;
       }
 
       if (minFontSize && fontSizeToUse < minFontSize) {
